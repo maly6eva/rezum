@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:ital@0;1&family=Splash&display=swap');
+
+body {
+    font-family: Roboto sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    background: #e5d6fc;
+    color: #3d2c46;
+    margin-right: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.avatar {
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgb(211, 75, 189);
+    /*float:left;*/
+    /*margin: 7px 7px 7px 0;*/
+}
+.obraz {
+    background: #c1abef;
+    color: #792626 ;
+    padding: 10px 30px;
+    border: 4px solid #792626;
+    margin-bottom: 20px;
+}
+
+.obraz2 {
+    text-decoration: dashed;
+}
+
+.blok {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.card4 h1 {
+    background: plum;
+    color: darkorchid;
+    border: 2px solid #461919;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin-left: 50px;
+}
+
+.card4 p {
+    color: #3d2c46;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.card1 {
+    background: #fcc3f2;
+    border: 4px solid #69225c;
+    margin-bottom: 20px;
+}
+
+.card1 h3 {
+    padding: 5px 300px;
+    color: #69225c;
+    margin-bottom: 5px;
+
+}
+
+.card1 li {
+    /*padding: 0px 0px 0px 20px;*/
+    color: #9670ec;
+    list-style: georgian;
+    margin-bottom: 20px;
+}
+
+.card1 ol {
+    padding: 0 0 0 140px;
+}
+
+.card2 {
+    background: #c1abef;
+    padding: 5px 5px 40px 40px;
+    margin-bottom: 20px;
+    border: 4px solid #72569b;
+}
+
+.card2 h3 {
+    padding: 5px 150px;
+    margin-bottom: 20px;
+    color: #773737;
+}
+
+.card2 a {
+    padding: 10px 30px;
+    margin-left: 40px;
+    margin-bottom: 130px;
+}
+
+.card3 {
+    background: #f5b5ea;
+    padding: 5px 5px 40px 40px;
+    /*margin-bottom: 20px;*/
+    border: 4px solid #773737;
+    margin-bottom: 20px;
+}
+
+
+
+.card3 h3 {
+    padding: 0 200px;
+    color: #792626;
+}
+
+.table {
+    width: 100%;
+
+}
+
+.table3 {
+    color: #540346;
+
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color: #9670ec;
+
+}
+
+.table tr {
+    padding-bottom: 10px;
+    color: #800202;
+}
+
+.table th {
+    padding-bottom: 10px;
+}
+
+a {
+    background: #af75cc;
+    color: lightgreen;
+    text-decoration: none;
+}
+
+a:active {
+    color: #f8ec4c;
+}
+
+a:hover {
+    background: darkorchid;
+    color: #2b9b00;
+}
+
+a:visited {
+    /*background: #69225c;*/
+    /*color: red;*/
+}
+
+.btn {
+    background: #72569b;
+    color: #f5b5ea;
+    padding: 10px 30px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 30px;
+    display: flex;
+
+}
+
+.form-row .form-group {
+    margin-right: 30px;
+    width: 50%;
+    /*width: calc(50% - 20px);*/
+    /*display: inline-block;*/
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+
+
+.form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 20px;
+    color: #7544dc;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #f5b5ea;
+    color: #940101;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width: 500px) {
+    .blok  {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 500px) {
+    .card4 h1{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}
+}
+@media (max-width: 500px) {
+    .card1 h3{
+        padding: 10px;
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 500px) {
+    .card1 ol{
+        padding: 10px 30px;
+        display: block;
+        text-align: left;
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 500px) {
+    .card3 h3{
+        padding: 10px;
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .card2 a{
+        display: block;
+        padding: 10px;
+        text-align: left;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+
+    }
+}
+@media (max-width: 500px) {
+    .card2 {
+        display: block;
+        padding: 20px 120px 20px 20px;
+        text-align: center;
+        font-size: 1.3rem;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 500px) {
+    .table tr{
+        display: block;
+        padding: 10px;
+        text-align: left;
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 500px) {
+    .card2 h3{
+        display: block;
+        padding: 10px 20px 10px 100px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 500px) {
+    .form-row {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 500px) {
+    .card3 {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .form-group {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 500px) {
+    .obraz{
+        padding: 10px;
+        display: block;
+        text-align: left;
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 500px) {
+    .btn{
+        padding: 10px;
+        display: block;
+        text-align: left;
+        font-size: 1.3rem;
+    }
+}
